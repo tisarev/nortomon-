@@ -1,0 +1,36 @@
+{
+    "setting": [
+        {
+            "id": "0",
+            "menuicon": "/img/icon/alerts.svg",
+            "menusvg": "alerts",
+            "menulink": "/alerts",
+            "menutext": "Alerts",
+            "alert": "1"
+        },
+        {
+            "id": "1",
+            "menuicon": "/img/icon/components.svg",
+            "menulink": "/components",
+            "menutext": "Components"
+        },
+        {
+            "id": "2",
+            "menuicon": "/img/icon/docs.svg",
+            "menulink": "/docs",
+            "menutext": "Docs"
+        },
+        {
+            "id": "3",
+            "menuicon": "/img/icon/help.svg",
+            "menulink": "/help",
+            "menutext": "Help"
+        },
+        {
+            "id": "4",
+            "menuicon": "/img/icon/settings.svg",
+            "menulink": "/settings",
+            "menutext": "Settings"
+        }
+    ]
+}

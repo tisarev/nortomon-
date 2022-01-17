@@ -1,0 +1,52 @@
+{
+    "manage": [
+        {
+            "id": "0",
+            "menulink": "/users",
+            "menuicon": "/img/icon/icon-users.svg",
+            "menutext": "Users"
+        },
+        {
+            "id": "1",
+            "menulink": "/recording-points",
+            "menuicon": "/img/icon/recording-points.svg",
+            "menutext": "Recording points"
+        },
+        {
+            "id": "2",
+            "menulink": "/reports",
+            "menuicon": "/img/icon/reports.svg",
+            "menutext": "Reports"
+        },
+        {
+            "id": "3",
+            "menulink": "/payments",
+            "menuicon": "/img/icon/payments.svg",
+            "menutext": "Payments"
+        },
+        {
+            "id": "4",
+            "menulink": "/tariff",
+            "menuicon": "/img/icon/tariff.svg",
+            "menutext": "Tariff"
+        },
+        {
+            "id": "5",
+            "menulink": "/promo-code",
+            "menuicon": "/img/icon/promo-code.svg",
+            "menutext": "Promo code"
+        },
+        {
+            "id": "6",
+            "menulink": "/directory",
+            "menuicon": "/img/icon/directory.svg",
+            "menutext": "Directory"
+        },
+        {
+            "id": "7",
+            "menulink": "/mobile-users",
+            "menuicon": "/img/icon/mobile-users.svg",
+            "menutext": "Mobile users"
+        }
+    ]
+}
