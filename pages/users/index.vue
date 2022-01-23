@@ -2,76 +2,81 @@
 <section class="section">
     <UiMenuTop />
     <div class="section-block">
-        <div class="table-list">
-            <ul class="table-list__block table-list__heading">
-                <li>
-                    <input type="checkbox">
-                    Name
-                </li>
-                <li>
-                    Company
-                </li>
-                <li>
-                    Contacts
-                </li>
-                <li>
-                    Group
-                </li>
-                <li>
-                    Role
-                </li>
-                <li>
-                </li>
-            </ul>
-            <ul class="table-list__block table-list__content">
-                <li>
-                    <input type="checkbox">
-                    <div class="table-list__block__name">
-                        <div class="table-list__block__name-img">F</div>
-                        <div class="table-list__block__name-wrapper">
-                            <div class="table-list__text">First Name</div>
-                            <div class="table-list__text">Last Name</div>
+        <ul class="table-list">
+            <li class="table-list__block table-list__heading">
+                <ul>
+                    <li>
+                        <input type="checkbox">
+                        Name
+                    </li>
+                    <li>
+                        Company
+                    </li>
+                    <li>
+                        Contacts
+                    </li>
+                    <li>
+                        Group
+                    </li>
+                    <li>
+                        Role
+                    </li>
+                    <li>
+                    </li>
+                </ul>
+            </li>
+            <li class="table-list__block table-list__content" v-for="useritem in users.users" :key="useritem.id">
+                <ul>
+                    <li>
+                        <input type="checkbox" class="table-list__input">
+                        <div class="table-list__block__name">
+                            <img :src="require(`~/assets/datatext/img/${useritem.img}.jpg`)" />
+                            <!-- <div class="table-list__block__name-img">F</div> -->
+                            <div class="table-list__block__name-wrapper">
+                                <div class="table-list__text">{{useritem.firstName}}</div>
+                                <div class="table-list__text">{{useritem.lastName}}</div>
+                            </div>
                         </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="table-list__text">Company name</div>
-                    <div class="text-description">CIty, Street name 123</div>
-                </li>
-                <li>
-                    <div class="table-list__text">8 800 123-45-67</div>
-                    <div class="text-description">info@gmail.com</div>
-                </li>
-                <li>
-                    <div class="table-list__text">Group name</div>
-                </li>
-                <li>
-                    <div class="table-list__text">Owner</div>
-                </li>
-                <li>
-                    <a href="#">
-                        <svg class="icon-edit">
-                            <use xlink:href="#icon-edit"/>
-                        </svg>
-                    </a>
-                    <a href="#">
-                        <svg class="icon-delete">
-                            <use xlink:href="#icon-delete"/>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-        </div>
+                    </li>
+                    <li>
+                        <div class="table-list__text">{{useritem.company}}</div>
+                        <div class="text-description">{{useritem.address}}</div>
+                    </li>
+                    <li>
+                        <div class="table-list__text">{{useritem.phone}}</div>
+                        <div class="text-description">{{useritem.email}}</div>
+                    </li>
+                    <li>
+                        <div class="table-list__text">{{useritem.group}}</div>
+                    </li>
+                    <li>
+                        <div class="table-list__text">{{useritem.role}}</div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="icon-edit">
+                                <use xlink:href="#icon-edit"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="icon-delete">
+                                <use xlink:href="#icon-delete"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </div>
     
 </section>
 </template>
 <script>
-import SettingData from '@/assets/datatext/users.json'
+import UserData from '@/assets/datatext/users.json'
     
     export default ({
         data: () => ({
-            setting: SettingData
+            users: UserData
         }),
         mounted () {
         }
