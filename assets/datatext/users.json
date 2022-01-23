@@ -2,7 +2,7 @@
     "users": [
         {
             "id": "0",
-            "img": "~/assets/datatext/img/1.jpg",
+            "img": "1",
             "firstName": "Jane",
             "lastName": "Coope",
             "company": "IBM",
@@ -14,7 +14,7 @@
         },
         {
             "id": "1",
-            "img": "~/assets/datatext/img/2.jpg",
+            "img": "2",
             "firstName": "Wade",
             "lastName": "Warren",
             "company": "eBay",
@@ -26,7 +26,7 @@
         },
         {
             "id": "2",
-            "img": "~/assets/datatext/img/3.jpg",
+            "img": "3",
             "firstName": "Esther",
             "lastName": "Howard",
             "company": "Apple",
@@ -38,7 +38,7 @@
         },
         {
             "id": "3",
-            "img": "~/assets/datatext/img/4.jpg",
+            "img": "4",
             "firstName": "Cameron",
             "lastName": "Williamson",
             "company": "Starbucks",
@@ -50,7 +50,7 @@
         },
         {
             "id": "4",
-            "img": "~/assets/datatext/img/5.jpg",
+            "img": "5",
             "firstName": "Brooklyn",
             "lastName": "Simmons",
             "company": "Mitsubishi",
@@ -62,7 +62,7 @@
         },
         {
             "id": "5",
-            "img": "~/assets/datatext/img/6.jpg",
+            "img": "6",
             "firstName": "Leslie",
             "lastName": "Alexander",
             "company": "MasterCard",
@@ -74,7 +74,7 @@
         },
         {
             "id": "6",
-            "img": "~/assets/datatext/img/7.jpg",
+            "img": "7",
             "firstName": "Jenny",
             "lastName": "Wilson",
             "company": "Facebook",
@@ -86,7 +86,7 @@
         },
         {
             "id": "7",
-            "img": "~/assets/datatext/img/8.jpg",
+            "img": "8",
             "firstName": "Guy",
             "lastName": "Hawkins",
             "company": "Starbucks",
@@ -98,7 +98,7 @@
         },
         {
             "id": "8",
-            "img": "~/assets/datatext/img/9.jpg",
+            "img": "9",
             "firstName": "Robert",
             "lastName": "Fox",
             "company": "McDonald's",
@@ -110,7 +110,7 @@
         },
         {
             "id": "9",
-            "img": "~/assets/datatext/img/10.jpg",
+            "img": "10",
             "firstName": "Theresa",
             "lastName": "Webb",
             "company": "Johnson & Johnson",
@@ -122,7 +122,7 @@
         },
         {
             "id": "10",
-            "img": "~/assets/datatext/img/11.jpg",
+            "img": "11",
             "firstName": "Kathryn",
             "lastName": "Murphy",
             "company": "Louis Vuitton",
@@ -134,7 +134,7 @@
         },
         {
             "id": "11",
-            "img": "~/assets/datatext/img/12.jpg",
+            "img": "12",
             "firstName": "Robert",
             "lastName": "Fox",
             "company": "The Walt Disney Company",
@@ -146,7 +146,7 @@
         },
         {
             "id": "12",
-            "img": "~/assets/datatext/img/13.jpg",
+            "img": "13",
             "firstName": "Jacob",
             "lastName": "Jones",
             "company": "Pizza Hut",
@@ -158,7 +158,7 @@
         },
         {
             "id": "13",
-            "img": "~/assets/datatext/img/14.jpg",
+            "img": "14",
             "firstName": "Cameron",
             "lastName": "Williamson",
             "company": "L'Oréal",
@@ -170,7 +170,7 @@
         },
         {
             "id": "14",
-            "img": "~/assets/datatext/img/15.jpg",
+            "img": "15",
             "firstName": "Kathryn",
             "lastName": "Murphy",
             "company": "Louis Vuitton",
@@ -182,7 +182,7 @@
         },
         {
             "id": "15",
-            "img": "~/assets/datatext/img/16.jpg",
+            "img": "16",
             "firstName": "Bessie",
             "lastName": "Cooper",
             "company": "Mitsubishi",
@@ -194,7 +194,7 @@
         },
         {
             "id": "16",
-            "img": "~/assets/datatext/img/17.jpg",
+            "img": "17",
             "firstName": "Savannah",
             "lastName": "Nguyen",
             "company": "McDonald's",
@@ -206,7 +206,7 @@
         },
         {
             "id": "17",
-            "img": "~/assets/datatext/img/18.jpg",
+            "img": "18",
             "firstName": "Kristin",
             "lastName": "Watson",
             "company": "Starbucks",
@@ -218,7 +218,7 @@
         },
         {
             "id": "18",
-            "img": "~/assets/datatext/img/19.jpg",
+            "img": "19",
             "firstName": "Jerome",
             "lastName": "Bell",
             "company": "L'Oréal",
@@ -230,7 +230,7 @@
         },
         {
             "id": "19",
-            "img": "~/assets/datatext/img/20.jpg",
+            "img": "20",
             "firstName": "Cody",
             "lastName": "Fisher",
             "company": "MasterCard",

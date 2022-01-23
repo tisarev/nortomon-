@@ -205,43 +205,49 @@ nav.menutop a.active {
   border: 1px solid var(--color-gray-300);
   overflow: hidden;
 }
+.table-list ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
 .table-list__heading{
   background-color: var(--color-gray-200);
   color: var(--color-gray-600);
 }
-ul.table-list__block{
+li.table-list__block{
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: var(--font-smalltext);
 }
-ul.table-list__content{
+li.table-list__content{
   background-color: var(--color-white);
   color: var(--color-gray-900);
 }
-ul.table-list__block li{
+li.table-list__block li{
   padding: 10px;
 }
-ul.table-list__block li:first-child{
+li.table-list__block li:first-child{
   padding-left: 20px;
   width: 220px;
   display: flex;
   align-items: center;
   gap: 20px;
 }
-ul.table-list__block li:nth-child(2){
+li.table-list__block li:nth-child(2){
   width: 220px;
 }
-ul.table-list__block li:nth-child(3){
-  width: 150px;
+li.table-list__block li:nth-child(3){
+  width: 220px;
 }
-ul.table-list__block li:nth-child(4){
+li.table-list__block li:nth-child(4){
   width: 130px;
 }
-ul.table-list__block li:nth-child(5){
+li.table-list__block li:nth-child(5){
   width: 110px;
 }
-ul.table-list__block li:nth-child(6){
+li.table-list__block li:nth-child(6){
   width: 60px;
   border-left: 1px solid var(--color-gray-200);
   padding-left: 10px;
@@ -265,7 +271,12 @@ ul.table-list__block li:nth-child(6){
   align-items: center;
   justify-content: center;
 }
-ul.table-list__block li input[type="checkbox"]{
+.table-list__block__name img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+input[type="checkbox"].table-list__input{
   width: 18px;
   height: 18px;
   border-radius: 4px;
@@ -281,5 +292,8 @@ svg.icon-delete{
 svg.icon-edit:hover,
 svg.icon-delete:hover{
   stroke: var(--color-gray-400);
+}
+input.table-list__input{
+
 }
 /* table-list */
